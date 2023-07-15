@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Poppins;
+    src: url('/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+body {
+    font-family: Poppins;
+    display: flex;
+    margin: 0;
+}
+
+div.menubar {
+    display: flex;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #03C3FFB2;
+    justify-content: space-between;
+}
+
+.menubar ul {
+    display: flex;
+    align-items: center;
+    margin: auto 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+input[id="search"] {
+    margin: auto;
+    width: 675px;
+    height: 44px;
+    border-radius: 25px;
+    padding: 0 25px;
+}
+
+.menubar ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+#register a,
+#signin a {
+    width: 100px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+#register a {
+    background-color: #B37BDF;
+}
+
+#signin a {
+    background-color: white;
+}
+
+.menubar ul li {
+    padding: 0 20px;
+}
