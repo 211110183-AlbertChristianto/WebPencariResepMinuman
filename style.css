@@ -63,3 +63,33 @@ input[id="search"] {
 .menubar ul li {
     padding: 0 20px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.subtitle {
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.item {
+    margin: 0 30px 0 0;
+    text-decoration: none;
+}
+
+.item img {
+    height: 246px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 20px;
+}
